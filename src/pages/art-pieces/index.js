@@ -1,4 +1,9 @@
 import ArtGallery from "@/components/ArtGallery";
+import Navigation from "@/components/Navigation";
+import useSWR from "swr";
+
+const fetcher = (...args) => fetch(...args).then((res) => res.json());
+const artURL = "https://example-apis.vercel.app/api/art";
 
 export default function Artpieces() {
   return (
@@ -8,13 +13,7 @@ export default function Artpieces() {
       <a href="/">Home</a>
       <br></br>
       <ArtGallery pieces={data} error={error} isLoading={isLoading} />
-      <nav className="nav">
-        <a href="/">Spotlight</a>
-        <br></br>
-        <a href="/art-pieces">Art Pieces</a>
-        <br></br>
-        <a href="/favourites">Favourites</a>
-      </nav>
+      
     </div>
   );
 }

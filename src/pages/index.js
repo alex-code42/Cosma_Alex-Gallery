@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 import useSWR from "swr";
 import Link from "next/link";
 import Spotlight from "@/components/Spotlight";
+import Navigation from '@/components/Navigation'
 
 const inter = Inter({ subsets: ["latin"] });
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
@@ -36,13 +37,7 @@ export default function Home() {
         artist={spotlight.artist}
         title={spotlight.name}
       />
-      <nav className="nav">
-        <Link href="/">Spotlight</Link>
-        <br></br>
-        <Link href="/art-pieces">Art Pieces</Link>
-        <br></br>
-        <Link href="/favourites">Favourites</Link>
-      </nav>
+
     </>
   );
 }
