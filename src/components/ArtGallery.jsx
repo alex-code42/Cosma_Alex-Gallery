@@ -8,6 +8,7 @@ export default function ArtGallery() {
 
   if (error) return <div>failed to load</div>;
   if (isLoading) return <div>loading...</div>;
+  console.log(data);
 
-  return <div>{data}</div>;
+  return <div>{data[0].slug}</div>;
 }
