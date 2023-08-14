@@ -6,7 +6,7 @@ export default function ArtPiecePreview({ image, title, artist }) {
       <Image
         src={image.imageSource}
         width={360}
-        height={360}
+        height={420}
         alt={image.name}
       />
       <p>{title}</p>
