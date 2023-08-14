@@ -1,8 +1,14 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
+<<<<<<< HEAD
   "/_error": "pages/_error.js",
   "/favourites": "pages/favourites.js",
   "/": "pages/index.js",
   "/art-pieces": "pages/art-pieces.js"
+=======
+  "/art-pieces": "pages/art-pieces.js",
+  "/": "pages/index.js",
+  "/favourites": "pages/favourites.js"
+>>>>>>> a97bd2938017f61e48ea61de04f427bcc65b7d2f
 }
