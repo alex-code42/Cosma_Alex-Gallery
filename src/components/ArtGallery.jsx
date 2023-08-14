@@ -7,7 +7,14 @@ export default function ArtGallery({ pieces = [], error, isLoading }) {
   return (
     <div>
       {pieces.map((image) => {
-        return <ArtPiecePreview key={image.slug} image={image} />;
+        return (
+          <ArtPiecePreview
+            key={image.slug}
+            image={image.imageSource}
+            title={image.name}
+            artist={image.artist}
+          />
+        );
       })}
     </div>
   );
