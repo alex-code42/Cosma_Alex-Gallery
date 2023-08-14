@@ -10,8 +10,11 @@ export default function Home() {
     <>
       <h1>Art Gallery</h1>
       <h2> Famous Artist</h2>
-      <a href='/art-pieces'>Art Pieces</a><br></br>
-      <a href='/favourites'>Favourites</a>
+      <nav className='nav'>
+        <a href='/'>Spotlight</a><br></br>
+        <a href='/art-pieces'>Art Pieces</a><br></br>
+        <a href='/favourites'>Favourites</a>
+      </nav>
     </>
   )
 }

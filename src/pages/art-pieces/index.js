@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import ArtGallery from "@/components/ArtGallery";
 import useSWR from "swr";
 
@@ -18,3 +19,17 @@ export default function Artpieces() {
     </div>
   );
 }
+=======
+export default function Artpieces(){
+    return(
+        <div>
+            <h1>ArtPieces</h1><br></br>
+            <nav className='nav'>
+                <a href='/'>Spotlight</a><br></br>
+                <a href='/art-pieces'>Art Pieces</a><br></br>
+                <a href='/favourites'>Favourites</a>
+            </nav>
+        </div>
+    )
+}
+>>>>>>> c92caeb1e144752dc21c17989a5a665c641c1215
