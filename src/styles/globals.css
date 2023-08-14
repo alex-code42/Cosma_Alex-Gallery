@@ -1,28 +1,20 @@
-
-
-
-:root{
-    /* max-width: 100vw; */
-    font-family: 'Courier New', Courier, monospace;
-    overflow-x: hidden;
-    background-color: rgb(205, 205, 255);
-    /* display: flex; */
-    border: 1px solid;
-    border-radius: 5px;
-    margin: auto;
-    width: 100%;
-    height: 100%;
-    /* padding: 10px; */
-    text-align: center;
+:root {
+  /* max-width: 100vw; */
+  font-family: "Courier New", Courier, monospace;
+  overflow-x: hidden;
+  background-color: rgb(205, 205, 255);
+  /* display: flex; */
+  border-radius: 5px;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  /* padding: 10px; */
+  text-align: center;
 }
-
 body {
   margin: auto;
   width: 450px;
   padding: 10px;
-  height: 600px;
-  
-  
   display: flex; /* or inline-flex */
   flex-direction: column;
   align-content: center;
@@ -30,18 +22,15 @@ body {
   border-radius: 5px;
   background-color: beige;
 }
-
-.nav{
-  position: absolute;
+.nav {
+  position: fixed;
   bottom: 0px;
   width: 450px;
   background-color: bisque;
- 
-  height: 100px;
+  height: 60px;
   display: flex;
 }
-
-.nav a{
+.nav a {
   text-align: center;
   background-color: rgb(16, 189, 68);
   width: 150px;
@@ -52,7 +41,4 @@ body {
   align-content: space-around;
   justify-content: space-around;
   align-items: normal;
-
 }
-
-
