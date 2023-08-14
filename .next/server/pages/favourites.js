@@ -34,6 +34,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "./node_modules/next/dist/client/add-base-path.js":
 /*!********************************************************!*\
   !*** ./node_modules/next/dist/client/add-base-path.js ***!
@@ -122,6 +123,8 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));
 
 /***/ }),
 
+=======
+>>>>>>> main
 /***/ "./node_modules/next/dist/pages/_document.js":
 /*!***************************************************!*\
   !*** ./node_modules/next/dist/pages/_document.js ***!
@@ -133,6 +136,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "./src/components/Navigation.jsx":
 /*!***************************************!*\
   !*** ./src/components/Navigation.jsx ***!
@@ -155,6 +159,8 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+=======
+>>>>>>> main
 /***/ "./src/pages/_app.js":
 /*!***************************!*\
   !*** ./src/pages/_app.js ***!
@@ -162,7 +168,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+<<<<<<< HEAD
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ App)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"./node_modules/react/jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/styles/globals.css */ \"./src/styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/components/layout */ \"./src/components/layout.jsx\");\n\n\n\nfunction App({ Component, pageProps }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_layout__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n        injectFirst: true,\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n            ...pageProps\n        }, void 0, false, {\n            fileName: \"/Users/benutzer/Desktop/Cosma_Alex-Gallery/src/pages/_app.js\",\n            lineNumber: 7,\n            columnNumber: 5\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/benutzer/Desktop/Cosma_Alex-Gallery/src/pages/_app.js\",\n        lineNumber: 6,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvX2FwcC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQTZCO0FBQ1c7QUFFekIsU0FBU0MsSUFBSSxFQUFFQyxTQUFTLEVBQUVDLFNBQVMsRUFBRTtJQUNsRCxxQkFDRSw4REFBQ0gsMERBQU1BO1FBQUNJLFdBQVc7a0JBQ25CLDRFQUFDRjtZQUFXLEdBQUdDLFNBQVM7Ozs7Ozs7Ozs7O0FBSTVCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZ2FsbGVyeS8uL3NyYy9wYWdlcy9fYXBwLmpzPzhmZGEiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICdAL3N0eWxlcy9nbG9iYWxzLmNzcydcbmltcG9ydCBMYXlvdXQgZnJvbSAnQC9jb21wb25lbnRzL2xheW91dCdcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQXBwKHsgQ29tcG9uZW50LCBwYWdlUHJvcHMgfSkge1xuICByZXR1cm4gKFxuICAgIDxMYXlvdXQgaW5qZWN0Rmlyc3Q+XG4gICAgPENvbXBvbmVudCB7Li4ucGFnZVByb3BzfSAvPlxuICAgIDwvTGF5b3V0PlxuICApXG4gIFxufVxuIl0sIm5hbWVzIjpbIkxheW91dCIsIkFwcCIsIkNvbXBvbmVudCIsInBhZ2VQcm9wcyIsImluamVjdEZpcnN0Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/pages/_app.js\n");
+=======
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ App)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"./node_modules/react/jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/styles/globals.css */ \"./src/styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction App({ Component, pageProps }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n        ...pageProps\n    }, void 0, false, {\n        fileName: \"/Users/benutzer/Desktop/Cosma_Alex-Gallery/src/pages/_app.js\",\n        lineNumber: 4,\n        columnNumber: 10\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvX2FwcC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBOEI7QUFFZixTQUFTQSxJQUFJLEVBQUVDLFNBQVMsRUFBRUMsU0FBUyxFQUFFO0lBQ2xELHFCQUFPLDhEQUFDRDtRQUFXLEdBQUdDLFNBQVM7Ozs7OztBQUNqQyIsInNvdXJjZXMiOlsid2VicGFjazovL2dhbGxlcnkvLi9zcmMvcGFnZXMvX2FwcC5qcz84ZmRhIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBcIkAvc3R5bGVzL2dsb2JhbHMuY3NzXCI7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEFwcCh7IENvbXBvbmVudCwgcGFnZVByb3BzIH0pIHtcbiAgcmV0dXJuIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz47XG59XG4iXSwibmFtZXMiOlsiQXBwIiwiQ29tcG9uZW50IiwicGFnZVByb3BzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/pages/_app.js\n");
+>>>>>>> main
 
 /***/ }),
 
@@ -184,7 +194,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+<<<<<<< HEAD
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Favourites)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"./node_modules/react/jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction Favourites() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                children: \"Favourites\"\n            }, void 0, false, {\n                fileName: \"/Users/benutzer/Desktop/Cosma_Alex-Gallery/src/pages/favourites/index.js\",\n                lineNumber: 4,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"br\", {}, void 0, false, {\n                fileName: \"/Users/benutzer/Desktop/Cosma_Alex-Gallery/src/pages/favourites/index.js\",\n                lineNumber: 4,\n                columnNumber: 32\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/benutzer/Desktop/Cosma_Alex-Gallery/src/pages/favourites/index.js\",\n        lineNumber: 3,\n        columnNumber: 9\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvZmF2b3VyaXRlcy9pbmRleC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQWUsU0FBU0E7SUFDcEIscUJBQ0ksOERBQUNDOzswQkFDRyw4REFBQ0M7MEJBQUc7Ozs7OzswQkFBZSw4REFBQ0M7Ozs7Ozs7Ozs7O0FBR2hDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZ2FsbGVyeS8uL3NyYy9wYWdlcy9mYXZvdXJpdGVzL2luZGV4LmpzP2QxZDQiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gRmF2b3VyaXRlcygpe1xuICAgIHJldHVybihcbiAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxoMT5GYXZvdXJpdGVzPC9oMT48YnI+PC9icj5cbiAgICAgICAgPC9kaXY+XG4gICAgKVxufSJdLCJuYW1lcyI6WyJGYXZvdXJpdGVzIiwiZGl2IiwiaDEiLCJiciJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/pages/favourites/index.js\n");
+=======
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Favourites)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"./node_modules/react/jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction Favourites() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                children: \"Favourites\"\n            }, void 0, false, {\n                fileName: \"/Users/benutzer/Desktop/Cosma_Alex-Gallery/src/pages/favourites/index.js\",\n                lineNumber: 4,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"br\", {}, void 0, false, {\n                fileName: \"/Users/benutzer/Desktop/Cosma_Alex-Gallery/src/pages/favourites/index.js\",\n                lineNumber: 4,\n                columnNumber: 32\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"nav\", {\n                className: \"nav\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        href: \"/\",\n                        children: \"Spotlight\"\n                    }, void 0, false, {\n                        fileName: \"/Users/benutzer/Desktop/Cosma_Alex-Gallery/src/pages/favourites/index.js\",\n                        lineNumber: 6,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"br\", {}, void 0, false, {\n                        fileName: \"/Users/benutzer/Desktop/Cosma_Alex-Gallery/src/pages/favourites/index.js\",\n                        lineNumber: 6,\n                        columnNumber: 42\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        href: \"/art-pieces\",\n                        children: \"Art Pieces\"\n                    }, void 0, false, {\n                        fileName: \"/Users/benutzer/Desktop/Cosma_Alex-Gallery/src/pages/favourites/index.js\",\n                        lineNumber: 7,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"br\", {}, void 0, false, {\n                        fileName: \"/Users/benutzer/Desktop/Cosma_Alex-Gallery/src/pages/favourites/index.js\",\n                        lineNumber: 7,\n                        columnNumber: 53\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        href: \"/favourites\",\n                        children: \"Favourites\"\n                    }, void 0, false, {\n                        fileName: \"/Users/benutzer/Desktop/Cosma_Alex-Gallery/src/pages/favourites/index.js\",\n                        lineNumber: 8,\n                        columnNumber: 17\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/benutzer/Desktop/Cosma_Alex-Gallery/src/pages/favourites/index.js\",\n                lineNumber: 5,\n                columnNumber: 13\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/benutzer/Desktop/Cosma_Alex-Gallery/src/pages/favourites/index.js\",\n        lineNumber: 3,\n        columnNumber: 9\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvZmF2b3VyaXRlcy9pbmRleC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQWUsU0FBU0E7SUFDcEIscUJBQ0ksOERBQUNDOzswQkFDRyw4REFBQ0M7MEJBQUc7Ozs7OzswQkFBZSw4REFBQ0M7Ozs7OzBCQUNwQiw4REFBQ0M7Z0JBQUlDLFdBQVU7O2tDQUNYLDhEQUFDQzt3QkFBRUMsTUFBSztrQ0FBSTs7Ozs7O2tDQUFhLDhEQUFDSjs7Ozs7a0NBQzFCLDhEQUFDRzt3QkFBRUMsTUFBSztrQ0FBYzs7Ozs7O2tDQUFjLDhEQUFDSjs7Ozs7a0NBQ3JDLDhEQUFDRzt3QkFBRUMsTUFBSztrQ0FBYzs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBSXRDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZ2FsbGVyeS8uL3NyYy9wYWdlcy9mYXZvdXJpdGVzL2luZGV4LmpzP2QxZDQiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gRmF2b3VyaXRlcygpe1xuICAgIHJldHVybihcbiAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxoMT5GYXZvdXJpdGVzPC9oMT48YnI+PC9icj5cbiAgICAgICAgICAgIDxuYXYgY2xhc3NOYW1lPSduYXYnPlxuICAgICAgICAgICAgICAgIDxhIGhyZWY9Jy8nPlNwb3RsaWdodDwvYT48YnI+PC9icj5cbiAgICAgICAgICAgICAgICA8YSBocmVmPScvYXJ0LXBpZWNlcyc+QXJ0IFBpZWNlczwvYT48YnI+PC9icj5cbiAgICAgICAgICAgICAgICA8YSBocmVmPScvZmF2b3VyaXRlcyc+RmF2b3VyaXRlczwvYT5cbiAgICAgICAgICAgIDwvbmF2PlxuICAgICAgICA8L2Rpdj5cbiAgICApXG59Il0sIm5hbWVzIjpbIkZhdm91cml0ZXMiLCJkaXYiLCJoMSIsImJyIiwibmF2IiwiY2xhc3NOYW1lIiwiYSIsImhyZWYiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/pages/favourites/index.js\n");
+>>>>>>> main
 
 /***/ }),
 
@@ -252,6 +266,7 @@ eval("module.exports = __webpack_require__(/*! ./dist/pages/_document */ \"./nod
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "./node_modules/next/link.js":
 /*!***********************************!*\
   !*** ./node_modules/next/link.js ***!
@@ -262,6 +277,8 @@ eval("module.exports = __webpack_require__(/*! ./dist/client/link */ \"./node_mo
 
 /***/ }),
 
+=======
+>>>>>>> main
 /***/ "./node_modules/react/cjs/react-jsx-dev-runtime.development.js":
 /*!*********************************************************************!*\
   !*** ./node_modules/react/cjs/react-jsx-dev-runtime.development.js ***!
@@ -339,6 +356,7 @@ module.exports = require("next/dist/server/utils.js");
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "../shared/lib/app-router-context":
 /*!*************************************************************!*\
   !*** external "next/dist/shared/lib/app-router-context.js" ***!
@@ -350,6 +368,8 @@ module.exports = require("next/dist/shared/lib/app-router-context.js");
 
 /***/ }),
 
+=======
+>>>>>>> main
 /***/ "../shared/lib/constants":
 /*!****************************************************!*\
   !*** external "next/dist/shared/lib/constants.js" ***!
@@ -383,6 +403,7 @@ module.exports = require("next/dist/shared/lib/is-plain-object.js");
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "../shared/lib/router-context":
 /*!*********************************************************!*\
   !*** external "next/dist/shared/lib/router-context.js" ***!
@@ -471,6 +492,8 @@ module.exports = require("next/dist/shared/lib/utils.js");
 
 /***/ }),
 
+=======
+>>>>>>> main
 /***/ "react":
 /*!************************!*\
   !*** external "react" ***!
@@ -480,6 +503,7 @@ module.exports = require("next/dist/shared/lib/utils.js");
 "use strict";
 module.exports = require("react");
 
+<<<<<<< HEAD
 /***/ }),
 
 /***/ "styled-components":
@@ -502,6 +526,8 @@ module.exports = require("styled-components");
 "use strict";
 eval("\n\nexports._ = exports._interop_require_default = _interop_require_default;\nfunction _interop_require_default(obj) {\n    return obj && obj.__esModule ? obj : { default: obj };\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvQHN3Yy9oZWxwZXJzL2Nqcy9faW50ZXJvcF9yZXF1aXJlX2RlZmF1bHQuY2pzIiwibWFwcGluZ3MiOiJBQUFhOztBQUViLFNBQVMsR0FBRyxnQ0FBZ0M7QUFDNUM7QUFDQSwyQ0FBMkM7QUFDM0MiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9nYWxsZXJ5Ly4vbm9kZV9tb2R1bGVzL0Bzd2MvaGVscGVycy9janMvX2ludGVyb3BfcmVxdWlyZV9kZWZhdWx0LmNqcz9mMDMwIl0sInNvdXJjZXNDb250ZW50IjpbIlwidXNlIHN0cmljdFwiO1xuXG5leHBvcnRzLl8gPSBleHBvcnRzLl9pbnRlcm9wX3JlcXVpcmVfZGVmYXVsdCA9IF9pbnRlcm9wX3JlcXVpcmVfZGVmYXVsdDtcbmZ1bmN0aW9uIF9pbnRlcm9wX3JlcXVpcmVfZGVmYXVsdChvYmopIHtcbiAgICByZXR1cm4gb2JqICYmIG9iai5fX2VzTW9kdWxlID8gb2JqIDogeyBkZWZhdWx0OiBvYmogfTtcbn1cbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./node_modules/@swc/helpers/cjs/_interop_require_default.cjs\n");
 
+=======
+>>>>>>> main
 /***/ })
 
 };
