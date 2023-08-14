@@ -9,7 +9,12 @@ export default function App({ Component, pageProps }) {
   const { data, error, isLoading } = useSWR(artURL, fetcher);
   return (
     <Layout injectFirst>
-      <Component {...pageProps} />
+      <Component
+        {...pageProps}
+        data={data}
+        error={error}
+        isLoading={isLoading}
+      />
     </Layout>
   );
 }
