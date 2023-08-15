@@ -2,18 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-<<<<<<< HEAD
   "/art-pieces": "pages/art-pieces.js",
   "/art-pieces/[slug]": "pages/art-pieces/[slug].js",
   "/": "pages/index.js"
-=======
-<<<<<<< HEAD
-  "/": "pages/index.js",
-  "/art-pieces": "pages/art-pieces.js",
-=======
-  "/art-pieces": "pages/art-pieces.js",
-  "/": "pages/index.js",
->>>>>>> main
-  "/art-pieces/[slug]": "pages/art-pieces/[slug].js"
->>>>>>> 70774c8856150ce5d9ff62fde8eefe9f86764add
 }
