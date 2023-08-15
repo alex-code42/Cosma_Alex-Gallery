@@ -12,17 +12,19 @@ export default function ArtPieceDetails() {
     const { slug } = router.query;
   
     // Fetch the art pieces data using useSWR
-    const { data, error } = useSWR(artURL, fetcher);
+    const { data, error, isLoading } = useSWR(artURL, fetcher);
   
     if (error) {
         return <div>Error loading data</div>;
       }
     
-      if (!data) {
-        
+      if (isLoading) {
+        return(
+            <p>Is Loading</p>
+        )
       }
   
-    const filteredArtist = data.find((artist) => artist.slug === slug);
+    const filteredArtist = data?.find((artist) => artist.slug === slug);
   
     if (filteredArtist) {
       console.log("Matching artist:", filteredArtist.slug, slug);
