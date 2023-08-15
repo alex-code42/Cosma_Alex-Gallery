@@ -1,33 +1,35 @@
-import { useState } from 'react';
+import { useState } from "react";
 
-export default function FavoriteButton({artPiecesState} ) {
-  
-    const {artPiecesInfo, setArtPiecesInfo} = artPiecesState;
-    console.log("artPiecesInfo", artPiecesInfo);
+export default function FavoriteButton({ artPiecesState, slug }) {
+  if (!artPiecesState) {
+    console.log("error", artPiecesState);
+    return <div>loading.....</div>;
+  }
+  const { artPiecesInfo, setArtPiecesInfo } = artPiecesState;
 
   const toggleFavorite = (imageId) => {
-    if (artPiecesInfo.includes(imageId)) {
-      setArtPiecesInfo(artPiecesInfo.filter(id => id !== imageId));
-    } else {
-      setArtPiecesInfo([...artPiecesInfo, imageId]);
-    }
+    setArtPiecesInfo(
+      artPiecesInfo.map((piece) =>
+        piece.id !== imageId
+          ? piece
+          : { ...piece, isFavourite: !piece.isFavourite }
+      )
+    );
   };
 
- 
-  return(
-    <div><h2>hello</h2></div>
-  )
+  if (!artPiecesInfo) {
+    return <div>loading...</div>;
+  }
 
+  console.log("can i find the item?", slug, artPiecesInfo);
   return (
-    <div className='toggleButton'>
-      {artPiecesInfo.map(image => (
-        <div key={image.id}>
-          {/* <img src={image.src} alt={`Image ${image.id}`} /> */}
-          <button onClick={() => toggleFavorite(image.id)}>
-            {artPiecesInfo.includes(image.id) ? '👍' : '👎'}
-          </button>
-        </div>
-      ))}
+    <div className="toggleButton">
+      {/* <img src={image.src} alt={`Image ${image.id}`} /> */}
+      <button onClick={() => toggleFavorite(slug)}>
+        {artPiecesInfo.find((item) => item.id === slug)?.isFavourite
+          ? "👍"
+          : "👎"}
+      </button>
     </div>
   );
 }

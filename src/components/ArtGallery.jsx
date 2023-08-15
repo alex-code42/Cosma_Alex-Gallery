@@ -1,5 +1,5 @@
 import ArtPiecePreview from "./ArtPiecePreview";
-import Link from "next/link";
+import FavoriteButton from "./FavoriteButton";
 
 export default function ArtGallery({
   pieces = [],
@@ -9,21 +9,19 @@ export default function ArtGallery({
 }) {
   if (error) return <div>failed to load</div>;
   if (isLoading) return <div>loading...</div>;
-  console.log(pieces);
 
   return (
     <ul>
       {pieces.map((image) => {
         return (
           <li key={image.slug}>
-            <Link href="/art-pieces/[slug]" as={`/art-pieces/${image.slug}`}>
-              <ArtPiecePreview
-                image={image.imageSource}
-                title={image.name}
-                artist={image.artist}
-                artPiecesState={artPiecesState}
-              />
-            </Link>
+            <ArtPiecePreview
+              image={image.imageSource}
+              title={image.name}
+              artist={image.artist}
+              artPiecesState={artPiecesState}
+              slug={image.slug}
+            />
           </li>
         );
       })}
