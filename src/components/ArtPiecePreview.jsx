@@ -5,8 +5,9 @@ export default function ArtPiecePreview({ image, title, artist }) {
   return (
     <>
       <Image src={image} width={360} height={360} alt={title} />
-      <p>{title}</p>
-      <p>Artist: {artist}</p>
+      <p data-testid="title">{title}</p>
+      <span>Artist: </span>
+      <span data-testid="artist">{artist}</span>
     </>
   );
 }

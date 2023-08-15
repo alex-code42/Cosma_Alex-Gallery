@@ -9,12 +9,13 @@ export default function ArtGallery({ pieces = [], error, isLoading }) {
     <ul>
       {pieces.map((image) => {
         return (
-          <ArtPiecePreview
-            key={image.slug}
-            image={image.imageSource}
-            title={image.name}
-            artist={image.artist}
-          />
+          <li key={image.slug}>
+            <ArtPiecePreview
+              image={image.imageSource}
+              title={image.name}
+              artist={image.artist}
+            />
+          </li>
         );
       })}
     </ul>
