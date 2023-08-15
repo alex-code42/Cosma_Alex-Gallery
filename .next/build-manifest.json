@@ -26,11 +26,14 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/art-pieces.js"
+<<<<<<< HEAD
+=======
     ],
     "/art-pieces/[slug]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/art-pieces/[slug].js"
+>>>>>>> 328be424fc1831d4aefc4532683fde389dc123c8
     ]
   },
   "ampFirstPages": []

@@ -2,6 +2,16 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+<<<<<<< HEAD
+  "/": "pages/index.js",
+  "/art-pieces": "pages/art-pieces.js"
+=======
+<<<<<<< HEAD
+  "/art-pieces": "pages/art-pieces.js",
+  "/": "pages/index.js"
+=======
   "/art-pieces/[slug]": "pages/art-pieces/[slug].js",
   "/art-pieces": "pages/art-pieces.js"
+>>>>>>> 328be424fc1831d4aefc4532683fde389dc123c8
+>>>>>>> main
 }

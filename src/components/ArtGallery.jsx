@@ -7,9 +7,18 @@ export default function ArtGallery({ pieces = [], error, isLoading }) {
   console.log(pieces);
 
   return (
-    <div>
+    <ul>
       {pieces.map((image) => {
         return (
+<<<<<<< HEAD
+          <li key={image.slug}>
+            <ArtPiecePreview
+              image={image.imageSource}
+              title={image.name}
+              artist={image.artist}
+            />
+          </li>
+=======
           <div>
         
           <Link href="/art-pieces/[slug]" as={`/art-pieces/${image.slug}`}>
@@ -21,8 +30,9 @@ export default function ArtGallery({ pieces = [], error, isLoading }) {
           />
           </Link>
           </div>
+>>>>>>> main
         );
       })}
-    </div>
+    </ul>
   );
 }
