@@ -18,6 +18,7 @@ export default function ArtPieceDetails({ data, artPiecesState }) {
         title={thisImage.name}
         artist={thisImage.artist}
         artPiecesState={artPiecesState}
+        slug={thisImage.slug}
       />
       <p>{thisImage.year}</p>
       <p>{thisImage.genre}</p>
