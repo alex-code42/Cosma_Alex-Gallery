@@ -1,0 +1,1 @@
+{"c":["pages/_app","webpack"],"r":["pages/art-pieces"],"m":["./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?absolutePagePath=%2FUsers%2Fbenutzer%2FDesktop%2FCosma_Alex-Gallery%2Fsrc%2Fpages%2Fart-pieces%2Findex.js&page=%2Fart-pieces!","./src/components/ArtGallery.jsx","./src/components/ArtPiecePreview.jsx","./src/pages/art-pieces/index.js"]}

@@ -1,4 +1,5 @@
 import ArtPiecePreview from "./ArtPiecePreview";
+import Link from "next/link";
 
 export default function ArtGallery({ pieces = [], error, isLoading }) {
   if (error) return <div>failed to load</div>;
@@ -9,12 +10,17 @@ export default function ArtGallery({ pieces = [], error, isLoading }) {
     <div>
       {pieces.map((image) => {
         return (
+          <div>
+        
+          <Link href="/art-pieces/[slug]" as={`/art-pieces/${image.slug}`}>
           <ArtPiecePreview
             key={image.slug}
             image={image.imageSource}
             title={image.name}
             artist={image.artist}
           />
+          </Link>
+          </div>
         );
       })}
     </div>
