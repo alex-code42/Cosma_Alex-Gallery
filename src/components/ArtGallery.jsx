@@ -11,7 +11,7 @@ export default function ArtGallery({
   if (isLoading) return <div>loading...</div>;
 
   return (
-    <ul>
+    <ul className="myListUl">
       {pieces.map((image) => {
         return (
           <li key={image.slug}>
