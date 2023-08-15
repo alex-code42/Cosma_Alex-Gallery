@@ -1,14 +1,21 @@
-import ArtPieceDetails from '@/components/ArtPieceDetails';
-import CommentForm from '@/components/CommentForm';
-import FavoriteButton from '@/components/FavoriteButton';
+import ArtPieceDetails from "@/components/ArtPieceDetails";
+import CommentForm from "@/components/CommentForm";
+import FavoriteButton from "@/components/FavoriteButton";
 
-export default function ShowArtPieceDetails({ image, title, artist, year, genre, artPiecesState }) {
+export default function ShowArtPieceDetails({ data, artPiecesState }) {
+  console.log("dataaaaaaaaaaaa", data);
+  const { image, title, artist, year, genre } = data;
   return (
     <div>
-      <FavoriteButton artPiecesState={artPiecesState}/>
-      <ArtPieceDetails image={image} title={title} artist={artist} year={year} genre={genre} />
+      <ArtPieceDetails data={data} artPiecesState={artPiecesState} />
       {/* <CommentForm/> */}
-      
     </div>
   );
 }
+
+// image,
+//   title,
+//   artist,
+//   year,
+//   genre,
+//   artPiecesState,

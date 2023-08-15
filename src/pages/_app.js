@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import Layout from "@/components/layout";
 import useSWR from "swr";
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 const artURL = "https://example-apis.vercel.app/api/art";
@@ -9,7 +9,6 @@ const artURL = "https://example-apis.vercel.app/api/art";
 export default function App({ Component, pageProps }) {
   const { data, error, isLoading } = useSWR(artURL, fetcher);
   const [artPiecesInfo, setArtPiecesInfo] = useState([]);
-  
   useEffect(() => {
     if (data) {
       const updatedArtPiecesInfo = data.map((artPiece) => ({
@@ -35,8 +34,10 @@ export default function App({ Component, pageProps }) {
         data={data}
         error={error}
         isLoading={isLoading}
-        artPiecesState={{artPiecesInfo:{artPiecesInfo}, setArtPiecesInfo:{setArtPiecesInfo}}}
-        
+        artPiecesState={{
+          artPiecesInfo: artPiecesInfo,
+          setArtPiecesInfo: setArtPiecesInfo,
+        }}
       />
     </Layout>
   );

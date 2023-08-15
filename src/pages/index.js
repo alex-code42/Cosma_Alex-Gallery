@@ -8,7 +8,7 @@ import Navigation from "@/components/Navigation";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home({ data, error, isLoading }) {
+export default function Home({ data, error, isLoading, artPiecesState }) {
   // const [images, updateImages] = useState([]);
 
   if (error) {
@@ -18,17 +18,10 @@ export default function Home({ data, error, isLoading }) {
     return <div>loading...</div>;
   }
 
-  const spotlight = data[Math.floor(Math.random() * 11)];
-  console.log("spotlight", spotlight);
-
   return (
     <>
       <h1>Spotlight</h1>
-      <Spotlight
-        image={spotlight.imageSource}
-        artist={spotlight.artist}
-        title={spotlight.name}
-      />
+      <Spotlight data={data} artPiecesState={artPiecesState} />
     </>
   );
 }
