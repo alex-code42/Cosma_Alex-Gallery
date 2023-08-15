@@ -1,13 +1,13 @@
 import ArtGallery from "@/components/ArtGallery";
 import Navigation from "@/components/Navigation";
 
-export default function Artpieces({ data, error, isLoading }) {
+export default function Artpieces({ data, error, isLoading, artPiecesState }) {
   return (
     <div>
       <h1>ArtPieces</h1>
       <br></br>
       <br></br>
-      <ArtGallery pieces={data} error={error} isLoading={isLoading} />
+      <ArtGallery pieces={data} error={error} isLoading={isLoading} artPiecesState={artPiecesState}/>
     </div>
   );
 }
