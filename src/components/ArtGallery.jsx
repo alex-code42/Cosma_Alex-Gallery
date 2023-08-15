@@ -10,27 +10,15 @@ export default function ArtGallery({ pieces = [], error, isLoading }) {
     <ul>
       {pieces.map((image) => {
         return (
-<<<<<<< HEAD
           <li key={image.slug}>
-            <ArtPiecePreview
-              image={image.imageSource}
-              title={image.name}
-              artist={image.artist}
-            />
+            <Link href="/art-pieces/[slug]" as={`/art-pieces/${image.slug}`}>
+              <ArtPiecePreview
+                image={image.imageSource}
+                title={image.name}
+                artist={image.artist}
+              />
+            </Link>
           </li>
-=======
-          <div>
-        
-          <Link href="/art-pieces/[slug]" as={`/art-pieces/${image.slug}`}>
-          <ArtPiecePreview
-            key={image.slug}
-            image={image.imageSource}
-            title={image.name}
-            artist={image.artist}
-          />
-          </Link>
-          </div>
->>>>>>> main
         );
       })}
     </ul>
