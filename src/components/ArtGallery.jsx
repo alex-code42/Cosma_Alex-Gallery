@@ -7,7 +7,7 @@ export default function ArtGallery({ pieces = [], error, isLoading, artPiecesSta
   console.log(pieces);
 
   return (
-    <div>
+    <ul>
       {pieces.map((image) => {
         return (
           <div>
@@ -24,6 +24,6 @@ export default function ArtGallery({ pieces = [], error, isLoading, artPiecesSta
           </div>
         );
       })}
-    </div>
+    </ul>
   );
 }

@@ -24,7 +24,7 @@ export default function ArtPieceDetails() {
         )
       }
   
-    const filteredArtist = data.find((artist) => artist.slug === slug);
+    const filteredArtist = data?.find((artist) => artist.slug === slug);
   
     if (filteredArtist) {
       console.log("Matching artist:", filteredArtist.slug, slug);
