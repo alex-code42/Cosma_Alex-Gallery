@@ -21,11 +21,13 @@ export default function FavoriteButton({ artPiecesState, slug }) {
     return <div>loading...</div>;
   }
 
-  console.log("can i find the item?", slug, artPiecesInfo);
   return (
     <div className="toggleButton">
       {/* <img src={image.src} alt={`Image ${image.id}`} /> */}
-      <button className="toggleButton__detail" onClick={() => toggleFavorite(slug)}>
+      <button
+        className="toggleButton__detail"
+        onClick={() => toggleFavorite(slug)}
+      >
         {artPiecesInfo.find((item) => item.id === slug)?.isFavourite
           ? "👍"
           : "👎"}

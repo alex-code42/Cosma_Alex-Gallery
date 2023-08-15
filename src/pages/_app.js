@@ -14,9 +14,9 @@ export default function App({ Component, pageProps }) {
       const updatedArtPiecesInfo = data.map((artPiece) => ({
         id: artPiece.slug,
         isFavourite: false,
+        comments: [],
       }));
       setArtPiecesInfo(updatedArtPiecesInfo);
-      console.log("artPiecesInfo", updatedArtPiecesInfo);
     }
   }, [data]);
 
