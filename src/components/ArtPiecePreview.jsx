@@ -9,7 +9,6 @@ export default function ArtPiecePreview({
   artPiecesState,
   slug,
 }) {
-  console.log("artpiecepreview image prop:", image);
   return (
     <>
       <FavoriteButton artPiecesState={artPiecesState} slug={slug} />
