@@ -41,7 +41,13 @@ body {
   display: flex;
 
 }
-
+.toggleButton{
+  width: 100px;
+  height: 10px;
+  position: relative;
+  top: 50px;
+  left: 350px
+}
 
 /* .nav {
   position: fixed;

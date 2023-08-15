@@ -1,7 +1,7 @@
 import ArtPiecePreview from "./ArtPiecePreview";
 import Link from "next/link";
 
-export default function ArtGallery({ pieces = [], error, isLoading }) {
+export default function ArtGallery({ pieces = [], error, isLoading, artPiecesState }) {
   if (error) return <div>failed to load</div>;
   if (isLoading) return <div>loading...</div>;
   console.log(pieces);
@@ -18,6 +18,7 @@ export default function ArtGallery({ pieces = [], error, isLoading }) {
             image={image.imageSource}
             title={image.name}
             artist={image.artist}
+            artPiecesState={artPiecesState}
           />
           </Link>
           </div>
