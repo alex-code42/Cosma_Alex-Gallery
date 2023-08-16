@@ -19,6 +19,8 @@ export default function ArtPiecePreview({
           width={360}
           height={360}
           alt={title}
+          layout="responsive" 
+          maxWidth={360}
         />
       </Link>
 

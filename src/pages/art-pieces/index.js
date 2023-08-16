@@ -3,9 +3,10 @@ import Navigation from "@/components/Navigation";
 
 export default function Artpieces({ data, error, isLoading, artPiecesState }) {
   return (
-    <div>
+    <div className="abstand">
       <h1>ArtPieces</h1>
       <ArtGallery pieces={data} error={error} isLoading={isLoading} artPiecesState={artPiecesState}/>
+
     </div>
   );
 }
