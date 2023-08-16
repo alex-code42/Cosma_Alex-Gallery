@@ -21,6 +21,7 @@ export default function ArtGallery({
               artist={image.artist}
               artPiecesState={artPiecesState}
               slug={image.slug}
+              colors={image.colors}
             />
           </li>
         );
