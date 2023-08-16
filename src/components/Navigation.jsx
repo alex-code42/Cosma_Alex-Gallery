@@ -6,8 +6,9 @@ export const NavigationContainer = styled.nav`
     position: fixed;
     align-items: center;
     bottom: 0px;
+    margin-top: 100px;
     width: 450px;
-   
+
     height: 60px;
     display: flex;
 `;
@@ -15,6 +16,7 @@ export const NavigationContainer = styled.nav`
 export const NavigationLink = styled(Link)`
   text-align: center;
   background-color: rgb(42, 158, 0);
+  
   height: 60px;
   width: 150px;
   color: white;

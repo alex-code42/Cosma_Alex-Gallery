@@ -6,7 +6,7 @@ export default function ShowArtPieceDetails({ data, artPiecesState }) {
   const { slug } = router.query;
   const thisImage = data.find((item) => item.slug === slug);
   return (
-    <div>
+    <div className="abstand">
       <ArtPieceDetails thisImage={thisImage} artPiecesState={artPiecesState} />
     </div>
   );
