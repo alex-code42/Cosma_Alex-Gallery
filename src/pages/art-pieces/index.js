@@ -5,8 +5,6 @@ export default function Artpieces({ data, error, isLoading, artPiecesState }) {
   return (
     <div>
       <h1>ArtPieces</h1>
-      <br></br>
-      <br></br>
       <ArtGallery pieces={data} error={error} isLoading={isLoading} artPiecesState={artPiecesState}/>
     </div>
   );
