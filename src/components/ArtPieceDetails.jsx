@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import CommentForm from "./CommentForm";
 import ArtPiecePreview from "./ArtPiecePreview";
+import Comments from "@/components/Comments";
 
 export default function ArtPieceDetails({ data, artPiecesState }) {
   const router = useRouter();
@@ -18,6 +19,7 @@ export default function ArtPieceDetails({ data, artPiecesState }) {
       <p>{thisImage.year}</p>
       <p>{thisImage.genre}</p>
       <CommentForm artPiecesState={artPiecesState} slug={thisImage.slug} />
+      <Comments artPiecesState={artPiecesState} thisImage={thisImage} />
     </>
   );
 }
