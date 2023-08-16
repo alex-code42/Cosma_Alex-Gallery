@@ -176,17 +176,38 @@ const artPieces = [
   },
 ];
 
-jest.mock("next/router", () => ({
-  useRouter() {
-    return {
-      asPath: "/art-pieces/majestic-greek-sculpture",
-    };
-  },
-}));
+// jest.mock("next/router", () => ({
+//   useRouter() {
+//     return {
+//       asPath: "/art-pieces/majestic-greek-sculpture",
+//     };
+//   },
+// }));
 
 jest.mock("swr");
 
-test("All art pieces images are displayed", async () => {
-  useSWR.mockReturnValue({ data: artPieces, isLoading: false, error: false });
-  render(<ArtPieceDetails data={artPieces} />);
+test("The correct art piece is displayed", async () => {
+  //   useSWR.mockReturnValue({ data: artPieces, isLoading: false, error: false });
+  render(
+    <ArtPieceDetails thisImage={artPieces[1]} artPiecesState={([], () => {})} />
+  );
+  const image = screen.getByRole("img").getAttribute("alt");
+  expect(image).toMatch(/Blue and Red/);
+});
+
+test("the correct genre is displayed", async () => {
+  //   useSWR.mockReturnValue({ data: artPieces, isLoading: false, error: false });
+  render(
+    <ArtPieceDetails thisImage={artPieces[1]} artPiecesState={([], () => {})} />
+  );
+  const image = screen.getByText(/Abstract Painting/i);
+  expect(image).toBeInTheDocument();
+});
+test("the correct year is displayed", async () => {
+  //   useSWR.mockReturnValue({ data: artPieces, isLoading: false, error: false });
+  render(
+    <ArtPieceDetails thisImage={artPieces[1]} artPiecesState={([], () => {})} />
+  );
+  const image = screen.getByText(/2019/i);
+  expect(image).toBeInTheDocument();
 });
