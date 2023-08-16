@@ -2,6 +2,7 @@ import CommentForm from "./CommentForm";
 import ArtPiecePreview from "./ArtPiecePreview";
 import Comments from "@/components/Comments";
 import { styled } from "styled-components";
+import Link from "next/link";
 
 export default function ArtPieceDetails({ thisImage, artPiecesState }) {
   const hexCode = thisImage.colors[0];
@@ -29,6 +30,9 @@ export default function ArtPieceDetails({ thisImage, artPiecesState }) {
 
   return (
     <>
+      <Link href="/art-pieces" as={`/art-pieces`}>
+        back
+      </Link>
       <ArtPiecePreview
         image={thisImage.imageSource}
         title={thisImage.name}

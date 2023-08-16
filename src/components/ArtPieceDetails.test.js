@@ -6,10 +6,7 @@ import {
   within,
 } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import useSWR from "swr";
 import ArtPieceDetails from "./ArtPieceDetails";
-import { useRouter } from "next/router";
-import { setRouter } from "next-router-mock";
 
 const artPieces = [
   {
@@ -210,4 +207,15 @@ test("the correct year is displayed", async () => {
   );
   const image = screen.getByText(/2019/i);
   expect(image).toBeInTheDocument();
+});
+
+test("the correct year is displayed", async () => {
+  //   useSWR.mockReturnValue({ data: artPieces, isLoading: false, error: false });
+  render(
+    <ArtPieceDetails thisImage={artPieces[1]} artPiecesState={([], () => {})} />
+  );
+  const backLink = screen.getByText(/back/i);
+  const backLinkHREF = backLink.getAttribute("href");
+  expect(backLink).toBeInTheDocument();
+  expect(backLinkHREF).toMatch(/art-pieces/);
 });
