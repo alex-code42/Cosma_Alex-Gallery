@@ -174,12 +174,6 @@ export const artPieces = [
   },
 ];
 
-// test("test if images are displayed as listitem", () => {
-//   render(<ArtGallery pieces={artPieces} error={false} isLoading={false} />);
-//   const listItems = screen.getAllByRole("img");
-//   expect(listItems).toHaveLength(11);
-// });
-
 jest.mock("swr");
 test("All art pieces are displayed as a list", async () => {
   useSWR.mockReturnValue({ data: artPieces, isLoading: false, error: false });
