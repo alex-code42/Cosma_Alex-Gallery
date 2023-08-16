@@ -13,7 +13,13 @@ export default function ArtPiecePreview({
     <>
       <FavoriteButton artPiecesState={artPiecesState} slug={slug} />
       <Link href="/art-pieces/[slug]" as={`/art-pieces/${slug}`}>
-        <Image src={image} width={360} height={360} alt={title} />
+        <Image
+          data-testid="image"
+          src={image}
+          width={360}
+          height={360}
+          alt={title}
+        />
       </Link>
 
       <p data-testid="title">{title}</p>
