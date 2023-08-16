@@ -8,7 +8,7 @@ export default function Favourites({ data, artPiecesState, error, isLoading }) {
   );
   console.log("favourites", favourites);
   return (
-    <div>
+    <div className="abstand">
       <h1>Favourites</h1>
       <br></br>
       <ArtGallery

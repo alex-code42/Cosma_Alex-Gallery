@@ -19,9 +19,9 @@ export default function Home({ data, error, isLoading, artPiecesState }) {
   }
 
   return (
-    <>
+    <div className="abstand">
       <h1>Spotlight</h1>
       <Spotlight data={data} artPiecesState={artPiecesState} />
-    </>
+    </div>
   );
 }

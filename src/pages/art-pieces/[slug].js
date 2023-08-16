@@ -4,7 +4,7 @@ import FavoriteButton from "@/components/FavoriteButton";
 export default function ShowArtPieceDetails({ data, artPiecesState }) {
   const { image, title, artist, year, genre, colors } = data;
   return (
-    <div>
+    <div className="abstand">
       <ArtPieceDetails data={data} artPiecesState={artPiecesState} />
     </div>
   );
