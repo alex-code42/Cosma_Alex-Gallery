@@ -25,6 +25,7 @@ export default function FavoriteButton({ artPiecesState, slug }) {
     <div className="toggleButton">
       {/* <img src={image.src} alt={`Image ${image.id}`} /> */}
       <button
+        data-testid="favourite-button"
         className="toggleButton__detail"
         onClick={() => toggleFavorite(slug)}
       >
