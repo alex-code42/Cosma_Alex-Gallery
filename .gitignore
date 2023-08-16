@@ -1,8 +1,8 @@
 node_modules
 .next
+node_modules
 .DS_Store
 
-node_modules
 
 
 .swc

@@ -7,8 +7,9 @@ import {
 } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import useSWR from "swr";
-// import { artPieces } from "./ArtGallery.test";
-import Spotlight from "./Spotlight";
+import ArtPieceDetails from "./ArtPieceDetails";
+import { useRouter } from "next/router";
+import { setRouter } from "next-router-mock";
 
 const artPieces = [
   {
@@ -175,21 +176,38 @@ const artPieces = [
   },
 ];
 
-jest.mock("swr");
-test("All art pieces images are displayed", async () => {
-  useSWR.mockReturnValue({ data: artPieces, isLoading: false, error: false });
-  render(<Spotlight data={artPieces} />);
-  const image = screen.getByRole("img");
-  expect(image).toBeInTheDocument();
-});
+// jest.mock("next/router", () => ({
+//   useRouter() {
+//     return {
+//       asPath: "/art-pieces/majestic-greek-sculpture",
+//     };
+//   },
+// }));
 
 jest.mock("swr");
-test("All art pieces images are displayed", async () => {
-  useSWR.mockReturnValue({ data: artPieces, isLoading: false, error: false });
-  const image1 = render(<Spotlight data={artPieces} />);
-  const image2 = render(<Spotlight data={artPieces} />);
-  const image3 = render(<Spotlight data={artPieces} />);
-  const images = screen.getAllByTestId("image");
-  console.log("this test fails 1 out of 11 times");
-  expect(images[0]).not.toBe(images[1]);
+
+test("The correct art piece is displayed", async () => {
+  //   useSWR.mockReturnValue({ data: artPieces, isLoading: false, error: false });
+  render(
+    <ArtPieceDetails thisImage={artPieces[1]} artPiecesState={([], () => {})} />
+  );
+  const image = screen.getByRole("img").getAttribute("alt");
+  expect(image).toMatch(/Blue and Red/);
+});
+
+test("the correct genre is displayed", async () => {
+  //   useSWR.mockReturnValue({ data: artPieces, isLoading: false, error: false });
+  render(
+    <ArtPieceDetails thisImage={artPieces[1]} artPiecesState={([], () => {})} />
+  );
+  const image = screen.getByText(/Abstract Painting/i);
+  expect(image).toBeInTheDocument();
+});
+test("the correct year is displayed", async () => {
+  //   useSWR.mockReturnValue({ data: artPieces, isLoading: false, error: false });
+  render(
+    <ArtPieceDetails thisImage={artPieces[1]} artPiecesState={([], () => {})} />
+  );
+  const image = screen.getByText(/2019/i);
+  expect(image).toBeInTheDocument();
 });
