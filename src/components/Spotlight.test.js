@@ -190,10 +190,6 @@ test("All art pieces images are displayed", async () => {
   const image2 = render(<Spotlight data={artPieces} />);
   const image3 = render(<Spotlight data={artPieces} />);
   const images = screen.getAllByTestId("image");
-  console.log(images[0] != images[1]);
-  //   render(<Spotlight data={artPieces} />);
-  //   const image = screen.getByRole("img");
-  //   const filteredImages = images.filter((img) => img.width);
-  //   console.log(filteredImages);
-  //   expect(image).toBeInTheDocument();
+  console.log("this test fails 1 out of 11 times");
+  expect(images[0]).not.toBe(images[1]);
 });

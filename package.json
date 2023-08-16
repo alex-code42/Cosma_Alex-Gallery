@@ -18,12 +18,14 @@
     "next": "13.4.13",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-router-dom": "^6.15.0",
     "styled-components": "^6.0.7",
     "swr": "^2.2.1",
     "use-local-storage-state": "^19.0.2"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.0.0",
-    "@testing-library/react": "^14.0.0"
+    "@testing-library/react": "^14.0.0",
+    "next-router-mock": "^0.9.9"
   }
 }

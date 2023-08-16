@@ -1,11 +1,13 @@
 import ArtPieceDetails from "@/components/ArtPieceDetails";
-import FavoriteButton from "@/components/FavoriteButton";
+import { useRouter } from "next/router";
 
 export default function ShowArtPieceDetails({ data, artPiecesState }) {
-  const { image, title, artist, year, genre, colors } = data;
+  const router = useRouter();
+  const { slug } = router.query;
+  const thisImage = data.find((item) => item.slug === slug);
   return (
     <div>
-      <ArtPieceDetails data={data} artPiecesState={artPiecesState} />
+      <ArtPieceDetails thisImage={thisImage} artPiecesState={artPiecesState} />
     </div>
   );
 }
