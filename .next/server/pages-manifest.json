@@ -1,0 +1,9 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/art-pieces": "pages/art-pieces.js",
+  "/favourites": "pages/favourites.js",
+  "/art-pieces/[slug]": "pages/art-pieces/[slug].js",
+  "/": "pages/index.js"
+}
