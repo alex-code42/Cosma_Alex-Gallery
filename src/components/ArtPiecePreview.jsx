@@ -24,9 +24,9 @@ export default function ArtPiecePreview({
         />
       </Link>
 
-      <p data-testid="title">{title}</p>
+      <p className="picture__title" data-testid="title">{title}</p>
       <span>Artist: </span>
-      <span data-testid="artist">{artist}</span>
+      <span className="picture__artist" data-testid="artist">{artist}</span>
     </>
   );
 }
