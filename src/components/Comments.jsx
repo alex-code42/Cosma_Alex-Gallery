@@ -6,10 +6,10 @@ export default function Comments({ artPiecesState, thisImage }) {
     (artPiece) => artPiece.id === thisImage.slug
   )?.comments;
   const combinedElements = comments?.map((commentElement) => (
-    <Fragment key={commentElement.timeStamp}>
+    <Fragment  key={commentElement.timeStamp}>
       <p>{commentElement.timeStamp}</p>
-      <p>{commentElement.comment}</p>
+      <p className="Comment">{commentElement.comment}</p>
     </Fragment>
   ));
-  return <section>{combinedElements}</section>;
+  return <section className="section__Comment">{combinedElements}</section>;
 }

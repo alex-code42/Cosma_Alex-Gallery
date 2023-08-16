@@ -17,6 +17,8 @@ export const NavigationLink = styled(Link)`
   background-color: rgb(42, 158, 0);
   height: 60px;
   width: 150px;
+  color: white;
+  font-weight: 400;
   border: 1px solid black;
   border-radius: 5px;
   display: flex;
